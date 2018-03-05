@@ -8,3 +8,14 @@ A concrete implementation of the Singleton and Decorator patterns in Python 3 is
 For running the program you will need to configure Twitter Streaming API. A good example to configure this is in the Step2 of this [tutorial](http://adilmoujahid.com/posts/2014/07/twitter-analytics/). Configure your API key, API secret, Access token and Access token secret in the *config_twitter.py* script.
 
 The main program is *mining_twitter.py*, remeber to change your working directory in the *data_path* variable.
+
+For gathering data from Twitter based on a search word:
+```shell
+$python config_twitter.py words
+```
+For gathering data from a Twitter account:
+```shell
+$python config_twitter.py account
+```
+
+Since this is a firts version, if you want to search for other words or accounts, you will need to change it in the code. I hope to make this part of the code more dynamic in the next version.
