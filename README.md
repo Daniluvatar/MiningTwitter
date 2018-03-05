@@ -15,7 +15,7 @@ $python config_twitter.py words
 ```
 For gathering data from a Twitter account:
 ```shell
-$python config_twitter.py account
+$python config_twitter.py accounts
 ```
 
-Since this is a firts version, if you want to search for other words or accounts, you will need to change it in the code. I hope to make this part of the code more dynamic in the next version.
+Since this is a first version, if you want to search for other words or accounts, you will need to change it in the code. I hope to make this part of the code more dynamic in the next version.
